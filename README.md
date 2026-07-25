@@ -114,6 +114,7 @@ Same logic. Three doors. Always switch.
 
 ### Basic Probability
 
+```
 P(car behind Door 1) = 1/3
 P(car behind Door 2) = 1/3
 P(car behind Door 3) = 1/3
@@ -123,10 +124,10 @@ After Monty opens Door 2:
 P(car behind Door 2) = 0 ← confirmed goat
 P(car behind Door 1) = 1/3 ← unchanged
 P(car behind Door 3) = 2/3 ← absorbs the collapsed probability
-
+```
 
 ### Bayes' Theorem
-
+```
 For those who want the full formal proof:
 P(A|B) =      P(B|A) × P(A)/P(B)
 
@@ -145,7 +146,7 @@ P(Monty opens Door2)
 
 P(Car=Door1 | Monty opens D2) = (1/2 × 1/3) / (1/2) = 1/3 ← STAY
 P(Car=Door3 | Monty opens D2) = (1 × 1/3) / (1/2) = 2/3 ← SWITCH
-
+```
 
 ---
 
