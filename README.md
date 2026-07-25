@@ -70,17 +70,19 @@ Your brain sees two closed doors and says *"50/50."*
 
 Here is why that is wrong:
 When you first picked Door 1:
-
+```
 You were RIGHT -> probability = 1/3 (33%)
 You were WRONG -> probability = 2/3 (67%)
+```
 
 Monty opening a door does NOT change what
 your original pick was worth.
 
+```
 Your door stays at -> 1/3
 Monty's open door -> 0 (confirmed goat)
 The switch door -> 2/3 <- all remaining probability collapses here
-
+```
 ---
 
 
@@ -90,9 +92,11 @@ Still not convinced? Scale it up:
 
 100 doors. 1 car. 99 goats.
 
+```
 You pick Door 1. → 1% chance you are right.
 Monty opens 98 doors. → All goats.
 One door remains: Door 57.
+```
 
 Monty had 99 doors to open.
 He opened 98 of them.
@@ -100,12 +104,13 @@ He specifically left Door 57 closed.
 
 **Why?**
 
+```
 Because 99% of the time — the car is there.
 
 STAY → 1% chance of winning
 SWITCH → 99% chance of winning
 
-
+```
 Same logic. Three doors. Always switch.
 
 ---
